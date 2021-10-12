@@ -1,35 +1,36 @@
 # Election_Analysis
 
-## Project Overview
-The purpose of this project was to gather the follwoing information for a cogressional election:
-1.
-
-## Resources
--Data Source: election_results.csv
--Software: Python 3.7.6, Visual Studio Code, 1.47
-
-## Summary
-
-
-
 ## Overview of Election Audit:
+The purpose of this project was to assist a board of elections employee in an election audit of the tabulated results for  U.S congression precinct in Colorado. The elections employee tasked the following:
+1. Report the total number of votes cast.
+2. Report the Total number of votes for each candidate.
+3. Report the votes into percentages for each candidate.
+4. Report the winner of the election based on popular vote.
+
 
 ## Election-Audit Results:
 Election-Audit Results: Using a bulleted list, address the following election outcomes. Use images or examples of your code as support where necessary.
+- After conducting the script for the election audit, we found that the total votes in this congressional election was 369,711.
+  - The way this number was found...
+- Jefferson had 38,855 which was only 10% of the total votes. Arapahoe had 24,801 votes which accounted for only 6.7% of the total votes. Lastly, Denver received 306,055 votes which was 86.8% of the total votes.
+  - The number of votes and the percentage of total votes for each county were found...
+    -By calculating the the number of votes in each county and receiving the total votes, it was conclude that Denver was the county with the largest number of votes.
+ - Charles Casper Stockham received 85,213 votes which was 23% of the votes. Raymon Anthony Doane received 11,606 votes which was 3.1% of the total votes. Diana DeGette received 272,892 votes which was 73.8% of the votes.
+  -The candidate that wone the election was Diana DeGette who total in 272, 892 votes and had 73.8% of total votes
 
-How many votes were cast in this congressional election?
-Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
-Which county had the largest number of votes?
-Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
-Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
 
+
+###### Election Results
 ![election_results](https://user-images.githubusercontent.com/90741799/136987982-0821f78c-7fc2-4cb3-aa6d-d5e86932bdc5.png)
 
 ## Election-Audit Summary:
-In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
+ This script was very efficient for calculating a large number of data as well as creating text files to sum up the key points of the congressional election. This script can be modified into be used for other elections by using a list and a dictionary that contains the vairables that are needed for the election. Another example on how this script can be used for another election is to another set of election data that show other counties and their candidates as well as the number of voters.
+###### Resources
+-Data Source: election_results.csv
+-Software: Python 3.7.6, Visual Studio Code, 1.47
 
 
-# VS CODE 
+#### VS CODE 
 * -*- coding: UTF-8 -*-
 """PyPoll Homework Challenge Solution."""
 
